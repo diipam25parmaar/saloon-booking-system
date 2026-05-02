@@ -1,0 +1,37 @@
+{
+  "name": "saloon-booking-frontend",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": "^20.19.0 || >=22.12.0"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --fix --cache",
+    "format": "prettier --write --experimental-cli src/"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "^6.0.1",
+    "axios": "^1.13.2",
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5",
+    "react-router-dom": "^7.14.2"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.1",
+    "@playwright/test": "^1.59.1",
+    "eslint": "^9.39.1",
+    "globals": "^16.5.0",
+    "playwright": "^1.59.1",
+    "prettier": "3.6.2",
+    "vite": "^8.0.10"
+  },
+  "description": "Saloon Booking Scheduler – React + Vite frontend for managing salon appointments, categories, services, and bookings.",
+  "main": "vite.config.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,2 @@
+/* Reset conflicting Vite scaffold styles — App.css handles everything */
+@import './base.css';

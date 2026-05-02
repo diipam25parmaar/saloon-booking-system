@@ -1,0 +1,4 @@
+/* base.css — cleared. All styles managed by App.css design system. */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
