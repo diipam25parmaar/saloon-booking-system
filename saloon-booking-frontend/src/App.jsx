@@ -48,8 +48,8 @@ function Navigation() {
             <button onClick={handleLogout} className="btn-ghost">Logout ({user.name})</button>
           </>
         )}
-        <button onClick={toggleTheme} className="theme-toggle" aria-label="Toggle Theme">
-          {theme === 'light' ? '🌙' : '☀️'}
+        <button onClick={toggleTheme} className="theme-toggle-btn" aria-label="Toggle Theme">
+          {theme === 'light' ? 'Dark' : 'Light'}
         </button>
       </div>
     </nav>
